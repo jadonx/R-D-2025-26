@@ -6,10 +6,13 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 @Autonomous(name="LinearOpModeExample")
 public class LinearOpModeExample extends LinearOpMode {
     // Declare variables
+    // DcMotor left;
 
     @Override
     public void runOpMode() throws InterruptedException {
         // Initialize hardware
+        // left = hardwareMap.get(DcMotor.class, "left");
+
         waitForStart(); // Wait for start button
 
         // Run autonomous steps in order
